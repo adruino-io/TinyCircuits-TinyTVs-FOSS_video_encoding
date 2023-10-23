@@ -28,7 +28,7 @@ This allows usage across many platforms:
 
 ## Adjustments:
 - setting the string `"-q:v 0"` will result in little to no compression artifacts, but large files
-- removing the string `"-q:v 4"` will result in strong compression, but tiny files
+- removing the string `"-q:v 4"` will result in strong compression, thus tiny files
 - adding the string `"volume=..."` after `"pan=mono|FC=FR"` (e.g. `"pan=mono|FC=FR,volume=4"` this icreases the audio volume by factor four) can be used to increase the audio volume
 
 ## Future fixes:
