@@ -11,7 +11,7 @@ Currently TinyCircuits only provides a video conversion tool for MacOS as well a
 
 The following settings can be used to convert videos using ffmpeg https://ffmpeg.org/
 
-This allows usage across many platforms:
+This allows usage across most platforms.
 
 ### for TinyTV DIY Kit
 - **with audio:** `ffmpeg -i input -c:a pcm_u8 -ar 10000 -af "pan=mono|FC=FR" -q:v 4 -c:v mjpeg -vf "scale=w=96:h=64:force_original_aspect_ratio=2,crop=96:64" -r 24 output.avi`
