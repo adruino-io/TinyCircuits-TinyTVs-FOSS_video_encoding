@@ -1,4 +1,4 @@
-# TinyCircuits - TinyTVs - FOSS video_encoding
+# TinyCircuits - TinyTVs - FOSS video encoding
 
 This repository contains the ffmpeg prompts to create JPEG AVI files for playback on the following TinyCircuits platforms:
 * TinyTV 2
