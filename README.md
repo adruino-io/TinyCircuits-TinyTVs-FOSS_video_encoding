@@ -29,9 +29,9 @@ This allows usage across most platforms.
 ## Adjustments:
 - setting the string `"-q:v 0"` will result in little to no compression artifacts, but large files
 - removing the string `"-q:v 4"` will result in strong compression, thus tiny files
-- adding the string `"volume=..."` after `"pan=mono|FC=FR"` (e.g. `"pan=mono|FC=FR,volume=4"` this icreases the audio volume by factor four) can be used to increase the audio volume
+- adding the string `"volume=..."` after `"pan=mono|FC=FR"` (e.g. `"pan=mono|FC=FR,volume=4"` icreases volume by factor four) can be used to adjust the audio volume
 
 ## Future fixes:
 - due to lacking the respective hardware the settings for DIY kit and Mini could not be tested
 - the strings can be optimized to reduce prompts
-- the resulting video for TinyTV 2 is 216x134 px rather than 216:135 px (this did not result in any playback issues so far)
+- the resulting video for TinyTV 2 is 216x134 px rather than 216x135 px (this did not result in any playback issues so far)
